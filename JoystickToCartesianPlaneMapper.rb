@@ -10,8 +10,8 @@ puts "----------------------"
 puts "jx: " + jx.to_s
 puts "jy: " + jy.to_s
 
-x = JOYSTICK_BORDER * (jx / CPLANE_BORDER + 1)
-y = JOYSTICK_BORDER * (jy / CPLANE_BORDER + 1)
+x = CPLANE_BORDER * (jx / JOYSTICK_BORDER - 1)
+y = CPLANE_BORDER * (jy / JOYSTICK_BORDER - 1)
 
 puts ""
 puts "Cartesian x: " + x.to_s
