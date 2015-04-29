@@ -14,7 +14,7 @@
 #                          |
 #                          |(0, -CPLANE_BORDER)
 
-CPLANE_BORDER = 100.0
+CPLANE_BORDER = 1023/2
 MAX_TURN_LOSS_FACTOR = 0.5
 X_AXIS_THRESHOLD_FACTOR = 0.25
 Y_AXIS_THRESHOLD_FACTOR = 0.25
